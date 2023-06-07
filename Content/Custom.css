@@ -1,0 +1,73 @@
+﻿/** Customers, Employess pages **/
+.form-view-table {
+    background: #ebf4ff;
+}
+
+.form {
+    padding: 20px;
+}
+
+.form-layout {
+    display: flex;
+}
+
+.form-layout-column {
+    width: 50%;
+}
+
+.form-field-label {
+    display: block;
+    margin-top: 10px;
+    margin-bottom: 3px;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.form-item-template {
+    font-size: 18px;
+}
+
+.form-item-template .form-field-label {
+    display: inline-block;
+    font-size: 16px;
+}
+
+.form-view-table input,
+.form-view-table select,
+.form-view-table textarea {
+    width: 100%;
+}
+
+/** Orders Page **/
+.orders-area table {
+    margin-right: 0;
+    width: 100%;
+}
+
+td.td_flex {
+    display:flex;
+}
+
+td.td_flex input:not(:first-child) {
+    margin-left:10px;
+}
+
+    .tr_insert td {
+        padding-top: 20px
+    }
+
+/** Supervisors Page **/
+.supervisors-area table {
+    margin-right: 0;
+    width: 100%;
+}
+
+.supervisors-area td table td,
+.supervisors-area td table th {
+    vertical-align: top;
+    padding:5px;
+}
+
+    .supervisors-area td table td:first-child {
+        text-align: center;
+    }
